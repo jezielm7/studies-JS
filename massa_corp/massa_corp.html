@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice Massa Corporal</title>
+  </head>
+
+  <body>
+    <h1>Body Mass Index Verify</h1>
+
+    <p>Digite seu nome:
+      <input type="text" name="name" id="name">
+    </p>
+
+    <p>Digite sua altura <small>(cm)</small>:
+      <input type="number" name="alt" id="alt_cm">
+    </p>
+
+    <p>Digite seu peso:
+      <input type="number" name="peso" id="peso">
+    </p>
+
+    <input type="button" value="Verify" onclick="calculate()">
+
+    <p id="res"></p>
+
+    <script src="js/massa_c.js"></script>
+  </body>
+
+</html>
