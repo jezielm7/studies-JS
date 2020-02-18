@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Verify</title>
+  </head>
+
+  <body>
+    <h1>Media Verify</h1>
+    
+    <p>Digite a 1º nota:
+      <input type="number" name="n1" id="n1">
+    </p>
+
+    <p>Digite a 2º nota:
+      <input type="number" name="n2" id="n2">
+    </p>
+
+    <p>Digite o nº de faltas:
+      <input type="number" name="ft" id="faltas">
+    </p>
+
+    <input type="button" value="Verify" onclick="verify()">
+
+    <p id="res"></p>
+    <p id="med"></p>
+    <p id="flt_msg"></p>
+    <p id="cngrt"></p>
+
+    <script src="js/nota_med.js"></script>
+  </body>
+
+</html>
