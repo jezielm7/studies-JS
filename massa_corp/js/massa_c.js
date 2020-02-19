@@ -1,12 +1,12 @@
 function calculate() {
 
-  var name = document.getElementById('name').value;
-  var alt_cm = document.getElementById('alt_cm').value;
-  var weight = document.getElementById('peso').value;
-  var res = document.getElementById('res');
+  const name = document.getElementById('name').value;
+  const alt_cm = document.getElementById('alt_cm').value;
+  const weight = document.getElementById('peso').value;
+  const res = document.getElementById('res');
 
-  var alt = Number.parseFloat(alt_cm);
-  var peso = Number.parseFloat(weight);
+  let alt = Number.parseFloat(alt_cm);
+  let peso = Number.parseFloat(weight);
 
   alt = alt / 100;
 
