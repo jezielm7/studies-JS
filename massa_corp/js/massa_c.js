@@ -10,9 +10,9 @@ function calculate() {
 
   alt = alt / 100;
 
-  var M = peso / (alt * alt);
+  let M = peso / (alt * alt);
 
-  var clsf = '';
+  let clsf = '';
 
   if (M < 16) {
     clsf = 'Baixo peso mt grave!';
