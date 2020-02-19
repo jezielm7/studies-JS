@@ -1,13 +1,9 @@
 function verify() {
-  var nt1 = document.getElementById('n1');
-  var nt2 = document.getElementById('n2');
+  var n1 = document.getElementById('n1').value;
+  var n2 = document.getElementById('n2').value;
   var res = document.getElementById('res');
-  var flt = document.getElementById('faltas');
+  var faults = document.getElementById('faltas').value;
   var flt_msg = document.getElementById('flt_msg');
-
-  var n1 = Number(nt1.value);
-  var n2 = Number(nt2.value);
-  var faults = Number(flt.value);
 
   var media = (n1 + n2) / 2;
   var medF = 7;

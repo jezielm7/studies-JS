@@ -1,18 +1,16 @@
 function verify() {
-  var idade = document.getElementById('year');
-
-  var year = Number(idade.value);
+  var year = document.getElementById('year').value;
 
   if (year >= 0 && year < 15) {
-    idd.innerHTML = 'The user is a child!';
+    id.innerHTML = 'The user is a child!';
   } else if (year >= 15 && year < 30) {
-    idd.innerHTML = 'The user is a young!';
+    id.innerHTML = 'The user is a young!';
   } else if (year >= 30 && year < 60) {
-    idd.innerHTML = 'The user is a adult!';
+    id.innerHTML = 'The user is a adult!';
   } else if (year >= 60 && year <= 100) {
-    idd.innerHTML = 'The user is a old man!';
+    id.innerHTML = 'The user is a old man!';
   } else {
-    idd.innerHTML = 'Value undefined, try again!';
+    id.innerHTML = 'Value undefined, try again!';
   };
   console.log(year);
 };

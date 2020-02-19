@@ -1,7 +1,5 @@
 function verify() {
-  var idade = document.getElementById('year');
-
-  var year = Number(idade.value);
+  var year = document.getElementById('year').value;
   
   switch (year) {
       case 0:
