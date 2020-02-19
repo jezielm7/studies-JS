@@ -8,6 +8,5 @@ function calculate() {
 
   var area = cp * lg;
 
-  res.innerHTML = `The area of place is: ${area}m².`;
-  // return area;
+  res.innerHTML = `The terrain has a area of: ${area}m².`;
 };
