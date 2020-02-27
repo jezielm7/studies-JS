@@ -14,27 +14,3 @@ function verify() {
   };
   console.log(year);
 };
-
-
-//   year = 0;
-//   switch (year) {
-//     case 0 && year < 15:
-//       id.innerHTML = 'The user is a child!';
-//       break;
-
-//     case year >= 15 && year < 30:
-//       id.innerHTML = 'The user is a young!';
-//       break;
-
-//     case year >= 30 && year < 60:
-//       id.innerHTML = 'The user is a adult!';
-//       break;
-
-//     case year >= 60:
-//       id.innerHTML = 'The user is a old man!';
-//       break;  
-  
-//     default:
-//       id.innerHTML = 'Value undefined, try again!';
-//       break;
-//   }
