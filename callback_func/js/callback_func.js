@@ -7,13 +7,13 @@ function showArticle(id, callbackSuccess, callbackError) {
 };
 
 var callbackSuccess = function(title, description) {
-  document.write('<h1>' + title + '</h1>');
+  document.write(`<h1> ${title} </h1>`);
   document.write('<hr/>');
-  document.write('<h1>' + description + '</h1>');
+  document.write(`<h3> ${description} </h3>`);
 };
 
 var callbackError = function(error) {
-  document.write('<h1>' + error + '</h1>');
+  document.write(`<h3> <b>Error:<b> ${error} </h3>`);
 };
 
 showArticle(1, callbackSuccess, callbackError);
