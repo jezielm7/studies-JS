@@ -54,9 +54,14 @@ function math(number) {
   document.write(`<b> Value: </b> ${negtNumber} <br/> <br/>`);
 
   // returns the absolute (positive) value of x;
-  
+
   let newNegNumber = Math.abs(negtNumber);
   document.write(`| <b> Positive number: </b> ${newNegNumber} |`);
+
+  document.write('<br/> <br/>');
+
+  let randomNumber = Math.random(1, 7);
+  document.write(`| <b> Random number: </b> ${randomNumber} |`);
 };
 
 math(number);
