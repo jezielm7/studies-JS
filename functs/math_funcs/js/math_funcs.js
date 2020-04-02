@@ -60,7 +60,7 @@ function math(number) {
 
   document.write('<br/> <br/>');
 
-  let randomNumber = Math.random(1, 7);
+  let randomNumber = Math.random(0, 7).toFixed(2);
   document.write(`| <b> Random number: </b> ${randomNumber} |`);
 };
 
